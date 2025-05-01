@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agencia de Viajes</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <h1>Explora el Mundo</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#destinos">Destinos</a></li>
+        <li><a href="#paquetes">Paquetes</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio" class="seccion">
+    <h2>Bienvenidos a tu próxima aventura</h2>
+    <p>Ofrecemos experiencias únicas en los destinos más increíbles del mundo.</p>
+  </section>
+
+  <section id="destinos" class="seccion">
+    <h2>Destinos Populares</h2>
+    <div class="destinos">
+      <div class="destino">
+        <img src="https://via.placeholder.com/300x200" alt="Playa">
+        <h3>Caribe</h3>
+      </div>
+      <div class="destino">
+        <img src="https://via.placeholder.com/300x200" alt="Montaña">
+        <h3>Los Alpes</h3>
+      </div>
+    </div>
+  </section>
+
+  <section id="paquetes" class="seccion">
+    <h2>Paquetes Turísticos</h2>
+    <ul>
+      <li>Paquete Romántico – 5 días en París</li>
+      <li>Aventura Andina – 7 días en Perú</li>
+    </ul>
+  </section>
+
+  <section id="contacto" class="seccion">
+    <h2>Contáctanos</h2>
+    <form>
+      <input type="text" placeholder="Nombre" required>
+      <input type="email" placeholder="Correo" required>
+      <textarea placeholder="Mensaje"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Agencia de Viajes. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
